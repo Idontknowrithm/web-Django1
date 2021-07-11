@@ -1,0 +1,126 @@
+SQLite format 3@  a(Ma.���
+
+���e3��[
+�
+�
+F
+�n%��i7
+�3+Aboard0002_board_tags2021-07-10 07:09:54.778251.%Atag0001_initial2021-07-10 07:09:54.7129490%Aboard0001_initial2021-07-04 07:35:31.8238213%Asessions0001_initial2021-07-03 11:11:19.578124@GAauth0011_update_proxy_permissions2021-07-03 11:11:19.554996CMAauth0010_alter_group_name_max_length2021-07-03 11:11:19.515751GUAauth0009_alter_user_last_name_max_length2021-07-03 11:11:19.476264FSAauth0008_alter_user_username_max_length2021-07-03 11:11:19.386881K
+]Aauth0007_alter_validators_add_error_messages2021-07-03 11:11:19.345568AIAauth0006_require_contenttypes_00022021-07-03 11:11:19.299064BKAauth0005_alter_user_last_login_null2021-07-03 11:11:19.276778@
+GAauth0004_alter_user_username_opts2021-07-03 11:11:19.221420C	MAauth0003_alter_user_email_max_length2021-07-03 11:11:19.177068HWAauth0002_alter_permission_name_max_length2021-07-03 11:11:19.115610H%GAcontenttypes0002_remove_content_type_name2021-07-03 11:11:19.082351IWAadmin0003_logentry_add_action_flag_choices2021-07-03 11:11:18.980701AGAadmin0002_logentry_remove_auto_add2021-07-03 11:11:18.9175800%Aadmin0001_initial2021-07-03 11:11:18.832054/%Aauth0001_initial2021-07-03 11:11:18.7884887%%Acontenttypes0001_initial2021-07-03 11:11:18.725229/%AUser0001_initial2021-07-03 11:11:18.631007
+�
+L�L�v���kb�-django_admin_log
+tag	board
++auth_permission$
+
+!auth_group	auth_user�
+User_user3django_content_type	!board_tags/django_migrations
+��d�v�)Asustkadlpbkdf2_sha256$150000$O9bFiDQsa7fx$H1psEPWPcPmYYBNAphZi0XmlYYwtI9GJIJRwe8ox3Bg=2021-07-07 11:15:47.660946r�)Aqwerpbkdf2_sha256$150000$JYjACe4Tbrqw$9B15NYEXQBmDMwUPfa7LB0sdHT06i15p9n64Rzmjn3c=2021-07-04 05:12:09.839851&Aasdf1232021-07-03 14:02:58.945107
+	a}����m��atagtag	boardboard
+Userusersessionssession%#contenttypescontenttype
+authuserauthgroup!authpermission	adminlogentry
+	`������|l`
+	tagtagboardboardUserusersessionssession%#contenttypescontenttypeauthuser
+authgroup!authpermissionadminlogentry
+$
+V������mWG4!������n\G2
+�
+�
+�
+�
+�
+�
+�
+�
+v
+e
+V	view_tag$!	delete_tag#!	change_tag"
+	add_tag!!view_board %delete_board%change_boardadd_boardview_user#delete_user#change_useradd_user%view_session)delete_session)change_session#add_session-view_contenttype1delete_contenttype1change_contenttype+add_contenttypeview_user#delete_user#change_useradd_user
+!view_group%delete_group%change_group
+add_group	+view_permission/delete_permission/change_permission)add_permission	'view_logentry	+delete_logentry	+change_logentry	%	add_logentry
+	,�
+���
+j	,�;M�A4w9udwyk4uxdp2yehihajp261mplazppMWYyZmMzNDE0NTMwMGRkN2QxNDhiNWJmYzM0ZTY5YTlkZTM5ZjgxMTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNTQ0MjM2NzJiOTczODQ1NDY5M2ZhNjEwMjViNzUwZjliN2RlYmJkIn0=2021-07-25 10:13:39.406074�GM�A4wivjqe4ohqepzla45siexo3z3q7492uMDMzY2UwNzA5MDAwYmJhMWFhZTNiMGU1NWYwNjUyYjMyNmFhN2M3ZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNTQ0MjM2NzJiOTczODQ1NDY5M2ZhNjEwMjViNzUwZjliN2RlYmJkIiwidXNlciI6Mn0=2021-07-24 16:53:49.607880�GM�A75pwbr4gh6rr6vsf4odbaer2vzto8hvrYmFjMzcxYzkzZDU2Y2Y4NzUwODNiOWQ4YjlkZTFmY2IxOTljMWZlNDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNTQ0MjM2NzJiOTczODQ1NDY5M2ZhNjEwMjViNzUwZjliN2RlYmJkIiwidXNlciI6M30=2021-07-21 11:36:52.364832�M�Af7lce6b7oxnn4zdgsbhc3hgb9stvup1mN2I3NjA0MTZlOWI2M2Q0Y2Y0NGM0Yjc5NjIwMTc2MTNmNzMwM2QwNTp7InVzZXIiOjJ92021-07-18 05:58:37.161195�;M�Ave0oyd0ugnf6dyrv2p9oq9ueeknmv89sMWYyZmMzNDE0NTMwMGRkN2QxNDhiNWJmYzM0ZTY5YTlkZTM5ZjgxMTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNTQ0MjM2NzJiOTczODQ1NDY5M2ZhNjEwMjViNzUwZjliN2RlYmJkIn0=2021-07-17 14:03:14.995148�;M�Ag031exxsmwb2rhh37hf5bvnyfx6ayur2MWYyZmMzNDE0NTMwMGRkN2QxNDhiNWJmYzM0ZTY5YTlkZTM5ZjgxMTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNTQ0MjM2NzJiOTczODQ1NDY5M2ZhNjEwMjViNzUwZjliN2RlYmJkIn0=2021-07-17 11:36:01.906113
+#H#m���$M4wivjqe4ohqepzla45siexo3z3q7492u$M4w9udwyk4uxdp2yehihajp261mplazpp$M75pwbr4gh6rr6vsf4odbaer2vzto8hvr$Mf7lce6b7oxnn4zdgsbhc3hgb9stvup1m$Mve0oyd0ugnf6dyrv2p9oq9ueeknmv89s#M	g031exxsmwb2rhh37hf5bvnyfx6ayur2
+
+RR�+
+�)A	
+5		A
+pbkdf2_sha256$150000$LyjtXZwHOIMf$oq4Cz5dUUwXP9S2UrBDryV89xzJygP0EYT3yBTTLsdk=2021-07-11 10:13:39.328353sustkadlsustkadl12@gmail.com2021-07-03 11:25:39.469159
+��	sustkadl
+
+
+$-����������������������{uoic]WQKE?93-	$	#	"	! 
+
+						
+
+
+
+
+
+"�$�
+�	��
+d��?�M
+��|��:g9�aindexauth_group_permissions_permission_id_8�~--�/tabledjango_admin_logdjango_admin_logCREATE TABLE "django_admin_log" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "action_time" datetime NOT NULL, "object_id" text NULL, "object_repr" varchar(200) NOT NULL, "change_message" text NOT NULL, "content_type_id" integer NULL REFERENCES "django_content_type" ("id") DEFERRABLE INITIALLY DEFERRED, "user_id" integer NOT NULL REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED, "action_flag" smallint unsigned NOT NULL CHECK ("action_flag" >= 0))�Q-�5indexauth_user_groups_group_id_97559544auth_user_groupsCREATE INDEX "auth_user_groups_group_id_97559544" ON "auth_user_groups" ("group_id")�O-�1indexauth_user_groups_user_id_6a12ed8bauth_user_groupsCREATE INDEX "auth_user_groups_user_id_6a12ed8b" ON "auth_user_groups" ("user_id")�?k-�sindexauth_user_groups_user_id_group_id_94350c0c_uniqauth_user_groupsCREATE UNIQUE INDEX "auth_user_groups_user_id_group_id_94350c0c_uniq" ON "auth_user_groups" ("user_id", "group_id")�X
+AA�;tableauth_user_user_permissionsauth_user_user_permissionsCREATE TABLE "auth_user_user_permissions" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "user_id" integer NOT NULL REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED, "permission_id" integer NOT NULL REFERENCES "auth_permission" ("id") DEFERRABLE INITIALLY DEFERRED)�0--�tableauth_user_groupsauth_user_groups
+CREATE TABLE "auth_user_groups" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "user_id" integer NOT NULL REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED, "group_id" integer NOT NULL REFERENCES "auth_group" ("id") DEFERRABLE INITIALLY DEFERRED)
+S+�8cA�Yindexauth_user_user_permissions_user_id_a95ead1bauth_user_user_permissionsCREATE INDEX "auth_user_user_permissions_user_id_a95ead1b" ON "auth_user_user_permissions" ("user_id")�w�	A�/indexauth_user_user_permissions_user_id_permission_id_14a6b632_uniqauth_user_user_permissionsCREATE UNIQUE INDEX "auth_user_user_permissions_user_id_permission_id_14a6b632_uniq" ON "auth_user_user_permissions" ("user_id", "permission_id")�N	99�7tableauth_group_permissionsauth_group_permissions
+CREATE TABLE "auth_group_permissions" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "group_id" integer NOT NULL REFERENCES "auth_group" ("id") DEFERRABLE INITIALLY DEFERRED, "permission_id" integer NOT NULL REFERENCES "auth_permission" ("id") DEFERRABLE INITIALLY DEFERRED)��JoA�qindexauth_user_user_permissions_permission_id_1fbb5f2cauth_user_user_permissionsCREATE INDEX "auth_user_user_permissions_permission_id_1fbb5f2c" ON "auth_user_user_permissions" ("permission_id")�:g9�aindexauth_group_permissions_permission_id_84c5c92eauth_group_permissionsCREATE INDEX "auth_group_permissions_permission_id_84c5c92e" ON "auth_group_permissions" ("permission_id")�+]9�Mindexauth_group_permissions_group_id_b120cbf9auth_group_permissionsCREATE INDEX "auth_group_permissions_group_id_b120cbf9" ON "auth_group_permissions" ("group_id")�j�9�#indexauth_group_permissions_group_id_permission_id_0cd325b0_uniqauth_group_permissionsCREATE UNIQUE INDEX "auth_group_permissions_group_id_permission_id_0cd325b0_uniq" ON "auth_group_permissions" ("group_id", "permission_id")�P�otableUser_userUser_userCREATE TABLE "User_user" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "username" varchar(20) NOT NULL, "password" varchar(32) NOT NULL, "registered_dttm" datetime NOT NULL)P++Ytablesqlite_sequencesqlite_sequenceCREATE TABLE sqlite_sequence(name,seq)�Y//�atabledjango_migrationsdjango_migrationsCREATE TABLE "django_migrations" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "app" varchar(255) NOT NULL, "name" varchar(255) NOT NULL, "applied" datetime NOT NULL)
+<H
+T��qIs�&�a�
+k$	��H"
+f�j;=�
+indexboard_writer_id_6311027fboard#CREATE INDEX "board_writer_id_6311027f" ON "board" ("writer_id")�:�	tableboardboard"CREATE TABLE "board" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(128) NOT NULL, "contents" text NOT NULL, "registered_dttm" datetime NOT NULL, "writer_id" integer NOT NULL REFERENCES "User_user" ("id") DEFERRABLE INITIALLY DEFERRED)�$(]+�Mindexauth_permission_content_type_id_2f476e4bauth_permissionCREATE INDEX "auth_permission_content_type_id_2f476e4b" ON "auth_permission" ("content_type_id")�S'y+�indexauth_permission_content_type_id_codename_01ab375a_uniqauth_permissionCREATE UNIQUE INDEX "auth_permission_content_type_id_codename_01ab375a_uniq" ON "auth_permission" ("content_type_id", "codename")�%&++�tableauth_permissionauth_permissionCREATE TABLE "auth_permission" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "content_type_id" integer NOT NULL REFERENCES "django_content_type" ("id") DEFERRABLE INITIALLY DEFERRED, "codename" varchar(100) NOT NULL, "name" varchar(255) NOT NULL)�H%o3�{indexdjango_content_type_app_label_model_76bd3d3b_uniqdjango_content_typeCREATE UNIQUE INDEX "django_content_type_app_label_model_76bd3d3b_uniq" ON "django_content_type" ("app_label", "model")
+�*�$>]!�Windexboard_tags_board_id_tag_id_1297874b_uniqboard_tags&CREATE UNIQUE INDEX "board_tags_board_id_tag_id_1297874b_uniq" ON "board_tags" ("board_id", "tag_id")�=!!�otableboard_tagsboard_tags%CREATE TABLE "board_tags" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "board_id" integer NOT NULL REFERENCES "board" ("id") DEFERRABLE INITIALLY DEFERRED, "tag_id" integer NOT NULL REFERENCES "tag" ("id") DEFERRABLE INITIALLY DEFERRED)�<�tabletagtag$CREATE TABLE "tag" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(32) NOT NULL, "registered_dttm" datetime NOT NULL)36G!indexsqlite_autoindex_auth_group_1auth_group 14Eindexsqlite_autoindex_auth_user_1auth_user�)3�!tableauth_userauth_userCREATE TABLE "auth_user" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "password" varchar(128) NOT NULL, "last_login" datetime NULL, "is_superuser" bool NOT NULL, "username" varchar(150) NOT NULL UNIQUE, "first_name" varchar(30) NOT NULL, "email" varchar(254) NOT NULL, "is_staff" bool NOT NULL, "is_active" bool NOT NULL, "date_joined" datetime NOT NULL, "last_name" varchar(150) NOT NULL)�9S)�9indexdjango_session_expire_date_a5c62663django_session!CREATE INDEX "django_session_expire_date_a5c62663" ON "django_session" ("expire_date")�67))�'tabledjango_sessiondjango_sessionCREATE TABLE "django_session" ("session_key" varchar(40) NOT NULL PRIMARY KEY, "session_data" text NOT NULL, "expire_date" datetime NOT NULL);8O)indexsqlite_autoindex_django_session_1django_session	�5!!�mtableauth_groupauth_groupCREATE TABLE "auth_group" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(150) NOT NULL UNIQUE)�I$33�9tabledjango_content_typedjango_content_typeCREATE TABLE "django_content_type" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "app_label" varchar(100) NOT NULL, "model" varchar(100) NOT NULL)�!O-�1indexdjango_admin_log_user_id_c564eba6django_admin_logCREATE INDEX "django_admin_log_user_id_c564eba6" ON "django_admin_log" ("user_id")�( _-�Qindexdjango_admin_log_content_type_id_c4bce8ebdjango_admin_logCREATE INDEX "django_admin_log_content_type_id_c4bce8eb" ON "django_admin_log" ("content_type_id")
+u@A!�indexboard_tags_tag_id_d03ee7f2board_tags(CREATE INDEX "board_tags_tag_id_d03ee7f2" ON "board_tags" ("tag_id"){?E!�indexboard_tags_board_id_977416b4board_tags'CREATE INDEX "board_tags_board_id_977416b4" ON "board_tags" ("board_id")
+
+
+
+
+
+
+�����������
+				
+
+�����������	
+											
+
+
+��x'���S*
+�(
+	A
+	2021-07-11 10:14:01.1971331ok'		A
+	2021-07-11 10:14:01.1248362a'	A
+	2021-07-11 10:14:01.0817233b,	A
+	2021-07-11 10:14:01.0242604내가4	A)
+	2021-07-11 10:14:00.9814545다시 한 번6	A-
+	2021-07-11 10:14:00.9162976그게 말이지6	A-
+	2021-07-11 10:14:00.8636617그게 말이지O	AS	2021-07-10 07:12:37.2950544내가[{"changed": {"fields": ["tags"]}}]A	A'+		2021-07-10 07:11:05.1184742집에 갈래[{"added": {}}]	C	A++		2021-07-10 07:10:57.5491401집가고싶어[{"added": {}}]	
+$
+����b:���rN.
+�
+�
+�
+�
+T
+#����`D"���pL/
+�
+�$+	view_tagCan view 태그!#!/	delete_tagCan delete 태그!"!/	change_tagCan change 태그!)	add_tagCan add 태그" !1view_boardCan view 게시글&%5delete_boardCan delete 게시글&%5change_boardCan change 게시글 /add_boardCan add 게시글'view_userCan view user #+delete_userCan delete user #+change_userCan change user%add_userCan add user"%-view_sessionCan view session&)1delete_sessionCan delete session&)1change_sessionCan change session #+add_sessionCan add session+-7view_contenttypeCan view content type/1;delete_contenttypeCan delete content type/1;change_contenttypeCan change content type)+5add_contenttypeCan add content type'view_userCan view user #+delete_userCan delete user #+change_userCan change user
+%add_userCan add user!)view_groupCan view group"%-delete_groupCan delete group"
+%-change_groupCan change group	'add_groupCan add group(+3view_permissionCan view permission,/7delete_permissionCan delete permission,/7change_permissionCan change permission&)1add_permissionCan add permission$	'1view_logentryCan view log entry(	+5delete_logentryCan delete log entry(	+5change_logentryCan change log entry"	%/add_logentryCan add log entry
+
+G����fGA2021-07-25 10:13:39.406074A2021-07-24 16:53:49.607880A2021-07-21 11:36:52.364832A2021-07-18 05:58:37.161195A2021-07-17 14:03:14.995148A	2021-07-17 11:36:01.906113
+��oH!����������&
+Ahihmm2021-07-10 16:53:59.509626%Aafsf2021-07-10 07:49:18.829043%Aasff2021-07-10 07:48:57.046965%
+Aasff2021-07-10 07:22:23.607268%	Aasff2021-07-10 07:19:49.907417=-%A그게 말이지상당하게2021-07-10 07:17:16.383258R
+���������������
+
+	)
+���uL� Aoh2021-07-10 16:53:59.605782,)A 집에 갈래2021-07-10 07:49:18.947967'A자주포2021-07-10 07:49:18.862595-+A집가고싶다2021-07-10 07:48:57.074155+'A집에 갈래2021-07-10 07:11:05.115322-+A집가고싶어2021-07-10 07:10:57.548452
+��������
+
+��������
+
+��������
+
+��������
