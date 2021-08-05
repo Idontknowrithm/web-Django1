@@ -1,0 +1,35 @@
+<!-- login.html -->
+{% extends "base.html" %}
+
+{% block contents %}
+<div class = "row mt-5"> <!-- mt-5 : 여백 -->
+    <div class = "col-12 text-center"> <!-- text-center : 중앙 정렬 -->
+        <h1>로그인</h1>
+    </div>
+</div>
+<div class = "row mt-5">
+    <div class = "col-12">
+        {{ error }}
+    </div>
+</div>
+<div class = "row mt-5">
+    <div class = "col-12">
+        <form method = "POST" action = ".">
+            {% csrf_token %}
+            {% for field in form %}
+            <!-- for 문을 사용함으로써 자동으로 아이디와 비번의 태그를 만듦 -->
+            <div class = "form-group">
+                <label for = "{{ field.id_for_label }}">{{ field.label }}</label>
+                <input type = "{{ field.field.widget.input_type }}" class = "form-control" id = "{{ field.id_for_label }}"
+                 placeholder = "{{ field.label }}" name = "{{ field.name }}" />
+            </div>
+            <!-- 각 태그에 해당하는 필드를 입력 -->
+            {% if field.errors %}
+            <span style = "color: red">{{ field.errors }}</span>
+            {% endif %}
+            {% endfor %}
+            <button type="submit" class="btn btn-primary">로그인</button>
+            </form>
+    </div>
+</div>
+{% endblock %}
