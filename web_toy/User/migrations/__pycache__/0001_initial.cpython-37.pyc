@@ -1,0 +1,13 @@
+B
+
+�D�`��@s&ddlmZmZGdd�dej�ZdS)�)�
+migrations�modelsc
+@sheZdZdZgZejddejddddd�fdej	dd	d
+�fdej	dd
+d
+�fdej
+ddd�fgd�gZdS)�	MigrationT�User�idF�ID)�auto_created�primary_key�	serialize�verbose_name�username�u사용자명)�
+max_lengthr�password� u비밀번호�registered_dttmu등록시간)�auto_now_addr)�name�fieldsN)�__name__�
+__module__�__qualname__�initial�dependenciesr�CreateModelr�	AutoField�	CharField�
+DateTimeField�
+operations�rr�2/workspace/web_toy/User/migrations/0001_initial.pyrsrN)�	django.dbrrrrrrr �<module>s
