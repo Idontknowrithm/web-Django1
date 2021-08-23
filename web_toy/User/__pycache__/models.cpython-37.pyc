@@ -1,0 +1,11 @@
+B
+
+AM�`��@s0ddlmZGdd�dej�ZGdd�d�ZdS)�)�modelsc@s>eZdZejddd�Zejddd�Zejddd�Zd	d
+�Z	dS)�User�u사용자명)�
+max_length�verbose_name� u비밀번호Tu등록시간)�auto_now_addrcCs|jS)N)�username)�self�r�!/workspace/web_toy/User/models.py�__str__
+szUser.__str__N)
+�__name__�
+__module__�__qualname__r�	CharFieldr	�password�
+DateTimeField�registered_dttmr
+rrrrrsrc@seZdZdZdS)�Meta�usersN)rrr�db_tablerrrrr
+srN)�	django.dbr�Modelrrrrrr�<module>s
