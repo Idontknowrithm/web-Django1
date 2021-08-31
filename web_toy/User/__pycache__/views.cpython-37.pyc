@@ -1,0 +1,28 @@
+B
+
+@��`9
+�@shddlmZmZddlmZddlmZmZddlm	Z	ddl
+mZdd�Zd	d
+�Z
+dd�Zd
+d�ZdS)�)�render�redirect)�HttpResponse)�
+make_password�check_password�)�User)�	LoginFormcCs(|j�d�}|rtjj|d�}t|d�S)N�user)�pkz	home.html)�session�getr�objectsr)�request�user_idr
+�r� /workspace/web_toy/User/views.py�homesrcCs�|jdkrt|d�S|jdkr�|jd}|jd}|jd}i}|rH|sRd|d<n*||krdd	|d<nt|t|�d
+�}|��t|d|�SdS)N�GETz
+register.html�POST�username�password�re_passwordu%모든 값을 입력해야 합니다.�erroru"비밀번호를 확인해주세요)rr)�methodrrrr�save)rrrrZres_datar
+rrr�registers 
+
+
+
+
+
+
+
+rcCsH|jdkr2t|j�}|��r8|j|jd<td�Snt�}t|dd|i�S)Nrr
+�/z
+login.html�form)rr	r�is_validrrrr)rrrrr�login?s
+
+
+r cCs|j�d�r|jd=td�S)Nr
+r)rr
+r)rrrr�logoutLsr!N)Zdjango.shortcutsrr�django.httpr�django.contrib.auth.hashersrr�modelsr�formsr	rrr r!rrrr�<module>s	)
