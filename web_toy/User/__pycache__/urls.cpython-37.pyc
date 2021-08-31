@@ -1,0 +1,5 @@
+B
+
+���`��@s>ddlmZddlmZedej�edej�edej�gZdS)�)�path�)�viewsz	register/zlogin/zlogout/N)�django.urlsr�r�register�login�logout�urlpatterns�rr�/workspace/web_toy/User/urls.py�<module>s
+
+
