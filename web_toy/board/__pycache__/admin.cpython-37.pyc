@@ -1,0 +1,7 @@
+B
+
+�G�`��@s<ddlmZddlmZGdd�dej�Zej�ee�dS)�)�admin�)�Boardc@seZdZdZdS)�
+BoardAdmin)�title�writerN)�__name__�
+__module__�__qualname__�list_display�rr�!/workspace/web_toy/board/admin.pyrsrN)Zdjango.contribr�modelsr�
+ModelAdminr�site�registerrrrr
+�<module>s
