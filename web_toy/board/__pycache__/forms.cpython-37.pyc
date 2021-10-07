@@ -1,0 +1,8 @@
+B
+
+�H�`*�@s"ddlmZGdd�dej�ZdS)�)�formsc@sDeZdZejddiddd�Zejddiejdd�Zejd	d
+d�ZdS)
+�	BoardForm�requiredu제목을 입력해주세요.�u제목)�error_messages�
+max_length�labelu내용을 입력해주세요.u내용)r�widgetrFu태그)rrN)	�__name__�
+__module__�__qualname__r�	CharField�title�Textarea�contents�tags�rr�!/workspace/web_toy/board/forms.pyrs
+rN)�djangor�Formrrrrr�<module>s
