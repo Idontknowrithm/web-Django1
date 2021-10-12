@@ -1,0 +1,26 @@
+B
+
+�U�`��@s�ddlmZddlmZddlmZddlmZmZddlmZddl	m
+Z
+ddlmZdd	l
+mZd
+d�Zdd
+�Zdd�ZdS)�)�render�)�Board)�	BoardForm)r�redirect)�User)�Tag)�	Paginator)�Http404cCsBtj���d�}|j�dd�}t|d�}|�|�}t|dd|i�S)Nz-id�pr�zboard_list.html�boards)	r�objects�all�order_by�GET�getr	�get_pager)�requestZ
+all_boards�page�	paginatorr
+�r�!/workspace/web_toy/board/views.py�
+board_lists
+
+
+rc	Cs�|jdkr�t|j�}|��r�|j�d�}tjj|d�}|jd�	d�}t
+�}|jd|_|jd|_||_
+|��x0|D](}|s�qxtjj|d�\}}|j�|�qxWtd	�Snt�}t|d
+d|i�S)N�POST�user)�pk�tags�,�title�contents)�namez/board/list/zboard_write.html�form)�methodrr�is_valid�sessionrrr�cleaned_data�splitrrr �writer�saver�
+get_or_creater�addrr)	rr"�user_idrr�board�tagZ_tag�_rrr�board_writes&
+
+
+
+r0cCsPytjj|d�}Wntjk
+r0td��YnXtjj|d�}t|dd|i�S)N)ru%게시글을 찾을 수 없습니다.zboard_detail.htmlr-)rrr�DoesNotExistr
+r)rrr-rrr�board_detail6sr2N)�django.shortcutsr�modelsr�formsrrZUser.modelsrZ
+tag.modelsr�django.core.paginatorr	�django.httpr
+rr0r2rrrr�<module>s
