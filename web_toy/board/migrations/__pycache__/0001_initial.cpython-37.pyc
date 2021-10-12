@@ -1,0 +1,18 @@
+B
+
+]`�`#�@s.ddlmZmZddlZGdd�dej�ZdS)�)�
+migrations�modelsNc@s�eZdZdZdgZejddejddddd�fdej	d	d
+d�fdej
+d
+d�fdejddd�fdeje
+jjjjddd�fgdddd�d�gZdS)�	MigrationT)�User�0001_initial�Board�idF�ID)�auto_created�primary_key�	serialize�verbose_name�title�u제목)�
+max_lengthr
+�contentsu내용)r
+�registered_dttmu등록시간)�auto_now_addr
+�writerz	User.Useru	작성자)�	on_delete�tor
+u	게시글�board)r
+�verbose_name_plural�db_table)�name�fields�optionsN)�__name__�
+__module__�__qualname__�initial�dependenciesr�CreateModelr�	AutoField�	CharField�	TextField�
+DateTimeField�
+ForeignKey�django�db�deletion�CASCADE�
+operations�r-r-�3/workspace/web_toy/board/migrations/0001_initial.pyrsr)�	django.dbrr�django.db.models.deletionr(rr-r-r-r.�<module>s
