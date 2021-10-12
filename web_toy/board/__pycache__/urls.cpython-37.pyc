@@ -1,0 +1,6 @@
+B
+
+�=�`��@s>ddlmZddlmZedej�edej�edej�gZdS)�)�path�)�viewszlist/zwrite/zdetail/<int:pk>N)�django.urlsr�rZ
+board_listZboard_writeZboard_detail�urlpatterns�rr� /workspace/web_toy/board/urls.py�<module>s
+
+
