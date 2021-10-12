@@ -1,0 +1,15 @@
+B
+
+�L�`��@s"ddlmZGdd�dej�ZdS)�)�modelsc@sjeZdZejddd�Zejdd�Zejdej	dd�Z
+ejd	d
+d�Zej
+dd
+d�Zdd�ZGdd�d�ZdS)�Board�u제목)�
+max_length�verbose_nameu내용)rz	User.Useru	작성자)�	on_deleterTu등록시간)�auto_now_addrztag.Tagu태그cCs|jS)N)�title)�self�r�"/workspace/web_toy/board/models.py�__str__sz
+Board.__str__c@seZdZdZdZdZdS)z
+Board.Meta�boardu	게시글N)�__name__�
+__module__�__qualname__�db_tabler�verbose_name_pluralrrrr�MetasrN)rrrr�	CharFieldr	�	TextField�contents�
+ForeignKey�CASCADE�writer�
+DateTimeFieldZregistered_dttm�ManyToManyField�tagsr
+rrrrrrs
+rN)�	django.dbr�Modelrrrrr�<module>s
