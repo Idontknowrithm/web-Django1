@@ -1,0 +1,8 @@
+B
+
+|G�`��@s&ddlmZmZGdd�dej�ZdS)�)�
+migrations�modelsc@s0eZdZddgZejddejddd�d�gZd	S)
+�	Migration)�tag�0001_initial)�boardrr�tagsztag.Tagu태그)�to�verbose_name)�
+model_name�name�fieldN)	�__name__�
+__module__�__qualname__�dependenciesr�AddFieldr�ManyToManyField�
+operations�rr�6/workspace/web_toy/board/migrations/0002_board_tags.pyrsrN)�	django.dbrrrrrrr�<module>s
