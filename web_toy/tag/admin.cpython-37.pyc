@@ -1,0 +1,5 @@
+B
+
+oG�`��@s<ddlmZddlmZGdd�dej�Zej�ee�dS)�)�admin�)�Tagc@seZdZdZdS)�TagAdmin)�nameN)�__name__�
+__module__�__qualname__�list_display�rr�/workspace/web_toy/tag/admin.pyrsrN)Zdjango.contribr�modelsr�
+ModelAdminr�site�registerrrrr�<module>s
